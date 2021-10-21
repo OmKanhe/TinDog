@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#title {
+  background-color: #ff4c68;
+  /* position: relative;
+  z-index: 1; */
+}
+h1 {
+  color: azure;
+  font-family: "Montserrat-Black", sans-serif;
+  line-height: 2;
+  size: 3rem;
+}
+.container-fluid {
+  height: 10%;
+  padding: 5% 15% !important;
+}
+.nav-item {
+  padding-left: 40px !important;
+  font-size: 20px;
+}
+.navbar-brand {
+  font-size: 50px !important;
+}
+nav {
+  padding: 0 !important;
+  margin-bottom: 80px;
+}
+button {
+  margin-right: 7px !important;
+  margin-top: 50px !important;
+}
+#iphone-dabba {
+  display: flex;
+  justify-content: center;
+}
+.iphone {
+  width: 39%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+#features i {
+  color: #ef8172;
+}
+#features i:hover {
+  color: #ff4c68;
+}
+h2 {
+  font-family: "Montserrat-Black";
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 3rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+  text-align: center;
+}
+#press img {
+  width: 15%;
+  padding: 10px 20px 50px;
+}
+
+/* ----pricing---- */
+
+#pricing {
+  padding: 100px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+@media (max-width:1024px) {
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    padding-top: 4%;
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+/* ----cta---- */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+#cta h3{
+  line-height: 4rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight:bolder;
+  margin: 40px 0;
+}
+#cta button{
+  margin:10px auto 20px;
+}
+
+/* ----footer--- */
+
+#footer{
+  background-color: #fff;
+ text-align: center;
+}
+#footer p{
+ margin:10px auto 50px;
+}
+
+#footer i{
+  width: 2rem;
+}
+.footer-i{
+  padding-top:20px;
+}
